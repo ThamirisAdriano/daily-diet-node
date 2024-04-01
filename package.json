@@ -8,21 +8,24 @@
     "dev": "tsx watch src/server.ts",
     "lint": "eslint src --ext .ts --fix",
     "knex": "node --no-warnings --import tsx ./node_modules/knex/bin/cli.js",
-    "build":"tsup src -d build"
+    "build": "tsup src -d build"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
     "@fastify/cookie": "^9.3.1",
+    "@fastify/cors": "^9.0.1",
+    "cors": "^2.8.5",
     "dotenv": "^16.4.5",
-    "fastify": "^4.26.1",
+    "fastify": "^4.26.2",
     "knex": "^3.1.0",
     "sqlite3": "^5.1.7",
     "zod": "^3.22.4"
   },
   "devDependencies": {
     "@rocketseat/eslint-config": "^2.2.2",
+    "@types/fastify-cors": "^2.1.0",
     "@types/node": "^20.11.20",
     "@types/supertest": "^6.0.2",
     "eslint": "^8.56.0",

@@ -19,3 +19,6 @@
 - Melhor sequência de refeições dentro da dieta
 
 - [x] O usuário só pode visualizar, editar e apagar as refeições o qual ele criou
+
+
+- Tentar subir no Vercel
